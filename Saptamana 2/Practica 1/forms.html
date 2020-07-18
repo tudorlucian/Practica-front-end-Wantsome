@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Uite, am facut un formular!</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form>
+        <label>Gender</label><br>
+        <br>
+        <input type=radio name="Gender" value="Male"> Male
+        <input type=radio name="Gender" value="Female"> Female
+        <br>
+        <label>Nume</label><br>
+        <input type="text" name="nume" required><br>
+        <br>
+       <label>Prenume</label><br>
+        <input type="text" name="prenume" required><br>
+        <br/>
+        <label>Email</label><br>
+        <input type="email" name="nume" required><br>
+        <br>
+        <label>Password</label><br>
+        <input type="password" name="nume" required><br>
+        <br>
+        <label>City</label><br>
+        <select name="City" required><br>
+            <option value="Iasi">Iasi</option>
+            <option value="Bucuresti">Bucuresti</option>
+            <option value="Constanta">Constanta</option>
+            <option value="Timisoara">Timisoara</option>
+        </select>
+        <br>
+        <form><br>
+            <input type="checkbox"name="Conditions"value="Conditions" required> I agree with terms and conditions
+        </form>
+        <br>
+        <input type="button"onclick="alert('Saloot')"value="Sign up"></input type>
+        <input type="button"onclick="alert('Ai gresit...te-am prins')"value="Reset"></input type>
+</body>
+</html>
