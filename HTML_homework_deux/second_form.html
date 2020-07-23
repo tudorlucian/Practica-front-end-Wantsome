@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mic search</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form>
+            <label>Search for:</label><br>
+            <input type="search" name="search"><button type="button" name="search">Search</button><br>
+            <label>Match:</label> 
+                <input type="radio" name="words" value="Any words"><label>Any words</label> 
+                <input type="radio" name="words" value="All words"><label>All words</label> 
+                <input type="radio" name="words" value="Exact phrase"><label>Exact phrase</label><br>
+                <input type="checkbox" name="words" value="Sound alike matching"><label>Sound alike matching</label><br>
+
+            <label>Dated</label>
+                    <input type=radio name="search_when" value="Within last year"><label>Within last year</label><br>
+                    <input type=radio name="search_when" value="Within last year"><label>From</label><input type=date min="2000-01-01" max="2020-01-01" name="From"><br>
+                    <label>To</label><input type=date min="2000-01-01" max="2020-01-01" name="To">
+            <label>Within</label><br>
+            <select name="within">
+                <option value="description">description</option>
+                <option value="idk">idk</option>
+                <option value="okay">okay</option>
+                <option value="yes">yes</option>
+            </select><br>
+            <label>Show</label> <select name="number">
+                                    <option value="number">10</option>
+                                    <option value="number">25</option>
+                                    <option value="number">50</option>
+                                    <option value="number">100</option>
+                                </select> results
+                                <select name="what">
+                                    <option value="with">with</option>
+                                    <option value="without">without</option>
+                                </select> summaries <br>
+
+            <label>Sort by</label><select name="sort">
+                                    <option value="relevance">relevance</option>
+                                    <option value="oldest">oldest</option>
+                                    <option value="newest">newest</option>
+                                </select>
+            
+        </form>
+    </body>
+</html>

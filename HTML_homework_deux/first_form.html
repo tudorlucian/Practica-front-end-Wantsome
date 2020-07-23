@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>primul formular</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h2>Travel reservation form</h2>
+        <form>
+            <label>Full name:</label><br>
+            <input type="text" name="full name" required><br>
+            <label>Email address:</label><br>
+            <input type="email"name="email" required><br>
+            <label>Select tour package:</label><br>
+            <select name="package">
+                <option value="saraki">saraki</option>
+                <option value="normal">normal</option>
+                <option value="business">business</option>
+                <option value="premium">premium</option>
+            </select><br>
+            <label>Arrival date:</label><br>
+            <input type="date" name="arrival_date" required><br>
+            <label>Number of persons:</label><br>
+            <input type="number" max="64" name="number"><br>
+            <label>What would you want to avail?</label><br>
+            <input type="checkbox" id="Boarding" name="Boarding" value="Boarding">Boarding<br>
+            <input type="checkbox" id="Fooding" name="Fooding" value="Fooding">Fooding<br>
+            <input type="checkbox" id="Sightseeing" name="Sightseeing" value="Sightseeing">Sightseeing<br>
+            <label>Discount coupon code:</label><br>
+            <input type="text" name="discount_code"><br>
+            <label>Terms and coditions</label><br>
+            <input type="radio" name="yes_or_no" value="yes" checked> Yes
+            <input type="radio" name="yes_or_no" value="no"> No <br>
+            <button type="button">Complete registration</button>
+        </form>
+    </body>
+</html>
