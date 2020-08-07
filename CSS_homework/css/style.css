@@ -1,0 +1,46 @@
+ul>:nth-child(2n){
+ color: green;
+}
+ul>:nth-child(3n){
+    background-color: lightblue;
+}
+ul>:first-child{
+    border-top: solid 1px green;
+}
+ul>:last-child{
+    border: dotted 5px blue;
+}
+ul>:nth-child(3)>a:link{
+    color: red;
+}
+ul>:nth-child(5)>a:link{
+    color: red;
+}
+ul>:nth-child(5)>a:hover{
+    color: gray;
+}
+ul>:nth-child(2){
+    list-style: none;
+}
+ul>:nth-child(5){
+    list-style: none;
+}
+.input[text]:focus{
+    background: gray;
+}
+.input[text]::placeholder{
+    color:green;
+}
+
+/*nu am reusit sa fac parte cu placeholder, password, email, button */
+
+.input[password]:read-write{
+    color:white;
+}
+input[email]::selection{
+    color: pink;
+    background-color: yellow;
+}
+button:hover{
+    color:red;
+}
