@@ -1,0 +1,16 @@
+$title-color:red;
+
+$radius: 10px;
+$button-border:4px;
+$button-color: lightgrey;
+$color: azure;
+
+.title {
+    color:$title-color;
+}
+
+.myBtn{
+    border-radius: $radius;
+    border: solid $button-border $button-color;
+    background-color: $color;
+}

@@ -1,0 +1,26 @@
+%shared-message{
+    padding:10px 35px;
+    color: #842;
+    // width:500px;
+    width: 600px / 960px * 100%;
+    border: solid 3px #dec;
+    text-align: center;
+    margin: 15px;
+}
+
+.normal{
+    @extend %shared-message;
+}
+
+.success{
+    @extend %shared-message;
+    border-color: goldenrod;
+    color: red;
+    border: solid 10px goldenrod;
+}
+
+.bye{
+    @extend %shared-message;
+    border-color: hotpink;
+    font-weight: bold;
+}

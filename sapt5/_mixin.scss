@@ -1,0 +1,36 @@
+@mixin form-buttons{
+    background-color: mediumseagreen;
+    font-weight: bold;
+    border: solid 2px black;
+    color: crimson;
+    padding: 5px 19px;
+
+
+    &:hover{
+        background-color: white;
+        border-color: royalblue;
+    }
+}
+
+.subscribe-btn{
+    @include form-buttons;
+}
+
+@mixin params-buttons($base, $hover, $text){
+background-color: $base;
+padding: 12px 28px;
+border-radius: 7px;
+color: $text;
+
+&:hover{
+    background-color:$hover;
+}
+}
+
+.meniu{
+    @include params-buttons(brown,lightgreen , black )
+}
+
+.product{
+    @include params-buttons(rgb(128, 63, 3),slateblue ,white )
+}

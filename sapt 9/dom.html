@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DOM</title>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>DOM</h1>
+
+<button type="button" onclick="changeBG()">Change Background</button>
+
+<h1 id='my-title'>This is my title</h1>
+<button type="button" onclick="changeTitleBg()">Change Change Title Bg</button>
+
+<script>
+
+const changeBG=()=>{
+    document.body.style.backgroundColor='green';
+}
+
+const changeTitleBg = () =>{
+    const h1 = document.getElementById('my-title');
+    h1.style.backgroundColor='red';
+    h1.style.color='white';
+    h1.innerText = 'Title has just changed';    
+}
+
+</script>
+</body>
+
+</html>

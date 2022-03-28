@@ -1,0 +1,42 @@
+.grid-container {
+    background-color: lightblue;
+    display: grid;
+    grid-gap: 20px;
+    width:1250px;
+    height:900px;
+    
+  }
+  .vertical{
+      grid-column: 1/24;
+      grid-row: 1/4;
+      background-color: aquamarine;
+      color: white;
+    padding-left:10px;
+  }
+  .tiles{
+      background-color:yellow;
+      grid-column:1/24;
+      grid-row:4/8;
+      padding-left:10px;
+  }
+  .middle{
+      background-color:blue;
+      grid-column: 24/48;
+      grid-row:1/8;
+      color:white;
+      padding-left:10px;
+  }
+  .tall{
+      background-color:lightcoral;
+      grid-column:48/64;
+      grid-row:1/16;
+      color: white;
+      padding: 20px;
+  }
+  .wide{
+      background-color: green;
+      grid-column:1/48;
+      grid-row:8/16;
+      color:white;
+      padding-left:10px;
+  }

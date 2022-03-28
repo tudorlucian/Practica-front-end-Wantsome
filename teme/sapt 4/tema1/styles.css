@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    background-color: #ff7470;
+    flex-direction: column;
+    
+  }
+  header{
+    background-color: green;
+    position: relative;
+    height: 70px;
+  }
+    .main{
+    background-color: green;
+    opacity: 70%;
+    }
+  
+  .div, img{
+      height: 250px;
+      width: 250px;
+      padding: 30px;
+
+  }
+
+  .section{
+      justify-content: space-evenly;
+  }
+
+  footer{
+    background-color: green;
+      position: relative;
+      height: 70px;
+      
+  }

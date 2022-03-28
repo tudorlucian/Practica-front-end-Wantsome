@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>anim</title>
+    <style>
+        .red{
+            background-color:  red;
+            width: 100px;
+            height: 100px;
+            transition-property: width;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+        }
+
+        .blue{
+            background-color:  blue;
+            width: 100px;
+            height: 100px;
+            transition-property: width;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 2s;
+        }
+
+        .container:hover .red{
+            width: 350px;
+        }
+
+        .container:hover .blue{
+            width:350px;
+        }
+
+    </style>
+  </head>
+  <body>
+      <div class="container">
+          <div class="red"></div>
+          <div class="blue"></div>
+      </div>
+  </body>
+</html>
